@@ -27,4 +27,4 @@ JavaScript
 
 ## Clone the repository:
 
-git clone https://github.com/webDynamo/tic-tac-toe.git
+URL:- https://github.com/webDynamo/Tic-toc-toe
