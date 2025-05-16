@@ -1,0 +1,114 @@
+*{
+        margin:0px;
+        padding: 0px;
+}
+
+body,html{
+        box-sizing: border-box;
+}
+
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+}
+
+.box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: dodgerblue;
+        padding: 10px;
+      }
+      .box > button {
+        background-color: #f1f1f1;
+        border: 1px solid black;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+.container {
+        border: 1px solid dodgerblue;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: relative;
+}
+h2 {
+        text-align: center;
+        padding: auto;
+        margin-bottom: 10px;
+        color: dodgerblue;
+    }
+
+
+.Player{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 3px;
+
+}
+input{
+        width: 150px;
+        padding: 2px;
+        font-weight: bold;
+}
+.player_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 8px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+}
+
+ .win{
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: black;
+        opacity: 60%;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+ } 
+ #rest_game{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 6px;
+
+ }
+ #close {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 3;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        transition: background-color 0.3s;
+    }
+    
+    #close:hover {
+        background-color: #ddd;
+    }
+    
